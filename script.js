@@ -15,7 +15,7 @@ for (var i = 0; i < images__total__count; i++)
 
 function image__loaded (){
     images__loaded__count++;
-    perc__display.innerHTML = (( (100/ images__total__count) * images__loaded__count) << 0) + '';
+    perc__display.innerHTML = (( (79/ images__total__count) * images__loaded__count) << 0) + '';
     if (images__loaded__count >= images__total__count)
     {
         setTimeout(function(){

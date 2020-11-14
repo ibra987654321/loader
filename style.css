@@ -25,10 +25,10 @@ body{
     font-size: 20px;
     color: #50BDF2;
 }
-.done{
+/* .done{
     opacity: 0;
     visibility: hidden;
-}
+} */
 #circle__graph {
     position: fixed;
     width: 160px;
@@ -72,13 +72,13 @@ body{
   .circle__load__shape {
     stroke-dasharray: 500;
     stroke-dashoffset:500 ;
-    animation: fill 1s linear ;
+    animation: fill 0.3s linear ;
     animation-fill-mode: forwards;
   }
   
   @keyframes fill {
     100% {
-        stroke-dashoffset: 0;
+        stroke-dashoffset:75;
     }
   }
   
